@@ -10,5 +10,6 @@ def question(request):
         lijn= f.readline()
 
     return render(request,"answer.html",{'lijnParam': lijn, 'getal':randomGetal})
+    
 
 
